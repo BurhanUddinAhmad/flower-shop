@@ -1,11 +1,72 @@
 /* Reset style */
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 * {
     margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
     font-size: 62.5%;
-    --bgClor: ;
-    --fntClor: ;
-    --btnClor: ;
-    --btnText: ;
-    --btnHover: ;
+    --bgClor: rgba(229, 84, 115, 0.1) ;
+    --fntClor: #000 ;
+    --pClor: rgba(39, 39, 39, 0.6);
+    --btnClor: #E55473;
+    --btnText: #fff;
+    --btnHover: #c03553;
+}
+section {
+    margin-top: 10rem;
+}
+.container {
+    width: 75%;
+    max-width: 144rem;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 2.2rem;
+    color: var(--fntClor);
+    margin-bottom: 2rem;
+}
+p {
+    font-size: 1.6rem;
+    color: var(--pClor);
+    margin-bottom: 2rem;
+    line-height: 2.2rem;
+}
+.btn button {
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    background: var(--btnClor);
+    color: var(--btnText);
+    transition: .3s ease;
+}
+.btn button:hover {
+    background: var(--btnHover);
+    cursor: pointer;
+}
+header {
+    background: var(--bgClor);
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 3rem;
+}
+.banner-contents {
+    flex-basis: 70rem;
+}
+.banner-contents h1 {
+    font-size: 6rem;
+    color: var(--fntClor);
+    margin-bottom: 2rem;
+}
+.banner-contents .banner-img {
+    width: 30rem;
+    height: 40rem;
+}
+.banner-img img {
+    width: 100%;
+    height: 100%;
 }
