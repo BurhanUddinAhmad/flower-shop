@@ -201,3 +201,33 @@ header {
 ::placeholder {
     color: #ccc;
 }
+
+/* footer Area  */
+footer {
+    background: var(--fntClor);
+    margin-top: 10rem;
+    padding: 10rem 0;
+}
+.footer-contents {
+    margin: 0 auto;
+    width: 60rem;
+    text-align: center;
+}
+.footer-contents h2 {
+    color: red;
+    font-size: 3rem;
+}
+.footer-contents h2 span {
+    color: #fff;
+    font-size: 3rem;
+}
+.footer-contents p {
+    color: #cfcdcd;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.footer-contents small {
+    color: #b4b0b0;
+    text-align: center;
+    font-size: 1rem;
+}
