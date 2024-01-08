@@ -167,3 +167,13 @@ header {
 .right-pic img {
   width: 100%;
 }
+
+/* Product Section */
+.product-contents {
+    display: flex;
+    justify-content: space-between;
+
+}
+.product-contents img {
+   width: 23rem;
+}
