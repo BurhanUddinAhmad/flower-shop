@@ -85,7 +85,6 @@ header {
 }
 .single-item {
     flex-basis: 30%;
-    height: 3rem;
 }
 .single-item h5 {
     font-size: 1.6rem;
@@ -112,6 +111,28 @@ header {
 }
 .flower img {
     width: 20rem
-    
-    
+}
+
+/* Support section */
+.support-contents {
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    text-align: center;
+}
+.support-contents .single-content {
+    flex-basis: 30%;
+}
+.single-content .icon {
+    width: 5rem;
+    margin: auto;
+}
+.single-content .icon img {
+    width: 100%;
+}
+.single-content h6 {
+    font-size: 1.4rem;
+    color: var(--pClor);
+    margin-top: 1rem;
 }
