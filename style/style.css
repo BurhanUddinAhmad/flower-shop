@@ -136,3 +136,34 @@ header {
     color: var(--pClor);
     margin-top: 1rem;
 }
+
+/* hot deal section  */
+#deal {
+    background: rgba(229, 84, 115, 0.05);
+}
+.deal-contents {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+}
+.left-content {
+    text-align: center;
+    flex-basis: 50rem;
+}
+.left-content h3 {
+    font-size: 2.6rem;
+    color: var(--fntClor);
+    margin-bottom: 2rem;
+}
+.left-content h3 span {
+    font-size: 3rem;
+    color: red;
+}
+.right-pic {
+    flex-basis: 30rem;
+    margin-left: 4rem;
+}
+.right-pic img {
+  width: 100%;
+}
