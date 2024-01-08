@@ -172,8 +172,32 @@ header {
 .product-contents {
     display: flex;
     justify-content: space-between;
-
 }
 .product-contents img {
    width: 23rem;
+}
+
+/* Subscribe section */
+.subscribe-contents {
+    background: url('../Flower\ Asset/Rectangle 9.png');
+    background-size: cover;
+    padding: 10rem;
+    text-align: center;
+}
+.subscribe-contents h3 {
+    font-size: 3rem;
+    color: var(--fntClor);
+    margin-bottom: 1rem;
+}
+.subscribe-contents form input {
+    width: 34rem;
+    font-size: 1.6rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    margin-right: 1rem;
+}
+::placeholder {
+    color: #ccc;
 }
